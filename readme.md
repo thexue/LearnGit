@@ -44,6 +44,9 @@ git remote add origin https://github.com/liyinchigithub/Git-commands.git//绑定
 
 ## 分支
 创建一个分支相当于新建一个工作节点，不会影响其它已有代码看，如图新建了一个new分支
+
+
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/c72bf21983fd4cd7baacb1fe68b1c27c.png)
 
 ```bash
@@ -57,13 +60,18 @@ git push origin --delete new//删除远程代码库的new分支
 
 ## 分支合并
 假设两个人同时在一个项目上面编写代码，A进行base分支，B进行new分支，他们都进行了一下代码更改，项目进展如下
+
+
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/cb79f1922a0b43639c43053dcb7132ac.png)
 
 如果将new添加到base上即为图1，将base添加到new中如图2
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/df6ff917efd74a36b65a389a71e4c31f.png)
 
-
 合并原理为三项合并，假设当前是将new合并至base中
+
+
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/002e931b3f9244e9bced04ebd9968eae.png)
 这个base 为他们最近公共祖先，Mine为当前base，Yours为now分支合并后代码为
 
